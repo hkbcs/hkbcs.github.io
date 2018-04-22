@@ -1,0 +1,88 @@
+<!doctype html>
+<html style="height: 100%;">
+
+<head>
+  <meta charset="utf-8">
+  <title>KYC Check System</title>
+  <!-- <base href="/kyc/dappleros-1/client/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="assets/favicon.png" href="assets/favicon.png">
+
+  <style>
+    .spinner {
+      margin: 0 auto;
+      width: 70px;
+      text-align: center;
+      height: 20px;
+    }
+
+    .spinner>div {
+      width: 18px;
+      height: 18px;
+      background-color: #21005A;
+
+      border-radius: 100%;
+      display: inline-block;
+      -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+      animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    }
+
+    .spinner .bounce1 {
+      -webkit-animation-delay: -0.32s;
+      animation-delay: -0.32s;
+    }
+
+    .spinner .bounce2 {
+      -webkit-animation-delay: -0.16s;
+      animation-delay: -0.16s;
+    }
+
+    @-webkit-keyframes sk-bouncedelay {
+      0%,
+      80%,
+      100% {
+        -webkit-transform: scale(0)
+      }
+      40% {
+        -webkit-transform: scale(1.0)
+      }
+    }
+
+    @keyframes sk-bouncedelay {
+      0%,
+      80%,
+      100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+      40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+      }
+    }
+  </style>
+<link href="styles.293c398af8ecd034f110.bundle.css" rel="stylesheet"/></head>
+
+<body style="height: 100%; display: flex;">
+  <app-root></app-root>
+  <div id="loading" style="flex: 1 1 auto; justify-content: center; align-items: center; display: flex;">
+    <div style="padding: 48px; position: relative; top: -20px;">
+      <img src="assets/logo.png" style="max-width: 100%; max-height: 200px;" />
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="inline.aa654902ced6df6dc92d.bundle.js"></script><script type="text/javascript" src="polyfills.4d9e89c2fa64570723b0.bundle.js"></script><script type="text/javascript" src="vendor.2bbd7120062dc35960d9.bundle.js"></script><script type="text/javascript" src="main.98589a61d4aa3b0f13bd.bundle.js"></script></body>
+
+<script>
+    if (navigator.userAgent.indexOf("MSIE") >= 0) {
+  document.body.innerHTML = '';
+  document.write("You are using an unsupported version of Internet Explorer. Please upgrade to Internet Explorer 11 or use a different web browser.");
+}
+</script>
+
+</html>
