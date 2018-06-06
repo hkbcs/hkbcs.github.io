@@ -75,7 +75,7 @@
     background: #fff;
     height: 100vh;
     text-align: center;
-    overflow: hidden;
+    margin-bottom: 1em;
     position: relative
 }
 

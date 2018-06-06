@@ -2064,3 +2064,39 @@ form-element.small {
 .Governance-list h2 {
   margin-bottom: 60px;
 }
+
+#notice {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  background: #00000057;
+  top:0;
+}
+
+#notice .message {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  background: white;
+  margin: 30px auto;
+  vertical-align: middle;
+}
+
+#notice .message p {
+  padding: 30px;
+}
+
+#notice .message span.title {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #notice .message {
+    width: 90%;
+    height: 90%;
+  }
+}
