@@ -92,70 +92,31 @@
       <p>Upon successful completion of a DC3 course, learners are eligible to take the final examination for that course. An exam may be taken as many times as needed; some lab courses may have project components in lieu of a final exam. Upon passing the final exam, students are awarded the certificate for that particular course. Upon completing an entire programme, learners earn the Certified status for that stream: Certified Fintech (CFT), Legal Blockchain (CLB), Certified Business Blockchain (CBB), and Certified Blockchain Developer (CBD) for one of four platforms.</p>
     </div>
 
-    <!-- SECTION 1 -->
+    <!-- COURSES -->
     <div class="container mb-5">
       <div id="accordion" class="col-lg-10 col-md-11 col-sm-12 ml-auto mr-auto mb-5">
 
+        <!-- BCX: Blockchain Fundamentals -->
         <div class="card">
-          <div class="card-header" id="headingOne">
+          <div class="card-header" id="headingBCX">
             <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h5 class="mb-0">Fintech Fundamentals (FTX)</h5>
-              </button>
-            </h5>
-          </div>
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              <div class="course-desc mb-5">
-                <h5>FTX 101 - Introduction to Fintech</h5>
-                <b>Description</b>
-                <p>An introduction to the convergence of finance and technology through the understanding of the global financial markets, the changing nature of finance, the role of technology, and the opportunities and risks in this industry.</p>
-                <b>Prereqs</b>
-                <p>n/a</p>
-              </div>
-              <div class="course-desc mb-5">
-                <h5>FTX 201 - Financial Fundamentals</h5>
-                <b>Description</b>
-                <p>This course builds on perspectives introduced from FTX 101 to explore the fundamental concepts in finance and the global markets. Review the mathematics of finance and the essence of economics. Comprehensive overview of financial instruments and related benefits and risks.</p>
-                <b>Prereqs</b>
-                <p>FTX 101</p>
-              </div>
-              <div class="course-desc mb-5">
-                <h5>FTX 202 - Fintech Fundamentals</h5>
-                <b>Description</b>
-                <p>This course builds on perspectives introduced from FTX 101 to explain how technology is developed. Comprehensive overview of software engineering, software development, project management, and best practices for long-term success.</p>
-                <b>Prereqs</b>
-                <p>FTX 101</p>
-              </div>
-              <div class="course-desc mb-5">
-                <h5>FTX 211 - Fintech Applications</h5>
-                <b>Description</b>
-                <p>This course builds on the concepts from FTX 201 and 202 to explore the various fintech applications in the industry. Learn to objectively evaluate fintech projects from a business and engineering perspective.</p>
-                <b>Prereqs</b>
-                <p>FTX 101, FTX 202</p>
-              </div>
-              <div class="course-desc">
-                <h5>FTX 211L - Fintech Project (Lab)</h5>
-                <b>Description</b>
-                <p>This is an intensive applied workshop where students will design a fintech application from idea to proof-of-concept stage. Students are expected to produce a technical roadmap, business plan, and a final presentation.</p>
-                <b>Coreq</b>
-                <p>FTX 211</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseBCX" aria-expanded="false" aria-controls="collapseBCX">
                 <h5 class="mb-0">Blockchain Fundamentals (BCX)</h5>
               </button>
             </h5>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div id="collapseBCX" class="collapse" aria-labelledby="headingBCX" data-parent="#accordion">
             <div class="card-body">
               <div class="course-desc">
+                <div class="course-desc mb-5">
+                  <h5>BCX 100 - Introduction to Blockchain </h5>
+                  <b>Description</b>
+                  <p>An introduction to blockchain basics from high level first principles. A brief history of distributed computing. A short summary of the ten years of cryptocurrencies and blockchain tokens. The utility of blockchain and distributed ledgers beyond money. The future of blockchain.</p>
+                  <b>Prereqs</b>
+                  <p>n/a</p>
+                  <b>Available Session</b>
+                  <p><a href="https://www.meetup.com/hkblockchain/events/251651076/">2018 June 29 Friday evening (Central)</a></p>
+                </div>
                 <div class="course-desc mb-5">
                   <h5>BCX 101 - Blockchain Fundamentals 1</h5>
                   <b>Description</b>
@@ -166,7 +127,14 @@
                 <div class="course-desc mb-5">
                   <h5>BCX 102 - Blockchain Fundamentals 2</h5>
                   <b>Description</b>
-                  <p>This course builds on concepts from BC 101 while making the transition to understanding and analysing the essence of blockchain technology from different social and technological perspectives. Compare and contrast distributed and decentralised design. Introduction to public, private, and consortium blockchains. Introduction to smart contracts.</p>
+                  <p>This course builds on concepts from BCX 101 while making the transition to understanding and analysing the essence of blockchain technology from different social and technological perspectives. Compare and contrast distributed and decentralised design. Introduction to public, private, and consortium blockchains. Introduction to smart contracts.</p>
+                  <b>Prereqs</b>
+                  <p>BCX 101</p>
+                </div>
+                <div class="course-desc mb-5">
+                  <h5>BCX 103 - Blockchain Ethics</h5>
+                  <b>Description</b>
+                  <p>This course builds on concepts from BCX 101 while emphasising the ethics or lack-thereof in well-known blockchain projects. A history of financial scams and known scams in the blockchain space. Anatomy of purpose-built blockchain scams. Analysis of accidental scams and badly designed blockchains.</p>
                   <b>Prereqs</b>
                   <p>BCX 101</p>
                 </div>
@@ -175,15 +143,16 @@
           </div>
         </div>
 
+        <!-- BCT: Blockchain Technical Programme -->
         <div class="card">
-          <div class="card-header" id="headingThree">
+          <div class="card-header" id="headingBCT">
             <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseBCT" aria-expanded="false" aria-controls="collapseBCT">
                 <h5 class="mb-0">Blockchain Technical Programme (BCT)</h5>
               </button>
             </h5>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div id="collapseBCT" class="collapse" aria-labelledby="headingBCT" data-parent="#accordion">
             <div class="card-body">
               <div class="course-desc mb-5">
                 <h5>BCT 101 - Cryptography</h5>
@@ -259,15 +228,16 @@
           </div>
         </div>
 
+        <!-- BCL: Blockchain Legal Programme -->
         <div class="card">
-          <div class="card-header" id="headingFour">
+          <div class="card-header" id="headingBCL">
             <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseBCL" aria-expanded="false" aria-controls="collapseBCL">
                 <h5 class="mb-0">Blockchain Legal Programme (BCL)</h5>
               </button>
             </h5>
           </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div id="collapseBCL" class="collapse" aria-labelledby="headingBCL" data-parent="#accordion">
             <div class="card-body">
               <div class="course-desc mb-5">
                 <h5>BCL 101 - Smart Contracts</h5>
@@ -336,15 +306,16 @@
           </div>
         </div>
 
+        <!-- BCB: Blockchain Business Programme -->
         <div class="card">
-          <div class="card-header" id="headingFive">
+          <div class="card-header" id="headingBCB">
             <h5 class="mb-0">
-              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseBCB" aria-expanded="false" aria-controls="collapseBCB">
                 <h5 class="mb-0">Blockchain Business Programme (BCB)</h5>
               </button>
             </h5>
           </div>
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div id="collapseBCB" class="collapse" aria-labelledby="headingBCB" data-parent="#accordion">
             <div class="card-body">
               <div class="course-desc mb-5">
                 <h5>BCB 101 - Blockchain Technology</h5>
@@ -364,7 +335,6 @@
                 <h5>BCB 111 - Smart Contracts</h5>
                 <b>Description</b>
                 <p>An introduction to the fundamentals of smart contracts. What they are and not. How they work and complement existing legal and regulatory frameworks. What legal and compliance issues to be aware of. An overview of use cases for smart contracts.</p>
-                <p>See: BCL 101</p>
                 <b>Prereqs</b>
                 <p>BCX 102</p>
                 <b>Antireq</b>
@@ -374,7 +344,6 @@
                 <h5>BCB 112 - Risk Compliance</h5>
                 <b>Description</b>
                 <p>This course builds on concepts from BCB 111 to provide in-depth understanding and management of risk and compliance challenges in the blockchain industry. Historical and current legislation from various jurisdictions. Special focus on Hong Kong and the Mainland of China. Special insight on the EU GDPR. Introduction to concepts in identity, notary, and decentralised autonomous organisations.</p>
-                <p>See: BCL 102</p>
                 <b>Prereqs</b>
                 <p>BCB 111</p>
                 <b>Antireq</b>
@@ -441,8 +410,6 @@
                 <p>This advanced course builds on the concepts from BCB 201 and BCB 202 to examine the initial coin offering or ICO. Analyse risk and benefits. Case study of historical ICOs. Best practices and legal considerations for running an ICO. Emphasis on business and market fundamentals.</p>
                 <b>Prereqs</b>
                 <p>BCB 201, BCB 202, BCB 211, BCB 212, BCB 213</p>
-                <b>Cost</b>
-                <p>2100 USD / 16500 HKD</p>
               </div>
               <div class="course-desc mb-5">
                 <h5>BCB 311L - Mock ICO (Lab)</h5>
@@ -454,6 +421,123 @@
             </div>
           </div>
         </div>
+
+        <!-- GDPR: EU GDPR Compliance Programme -->
+        <div class="card">
+          <div class="card-header" id="headingGDPR">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseGDPR" aria-expanded="true" aria-controls="collapseGDPR">
+                <h5 class="mb-0">EU GDPR Compliance Programme (GDPR)</h5>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseGDPR" class="collapse" aria-labelledby="headingGDPR" data-parent="#accordion">
+            <div class="card-body">
+              <div class="course-desc mb-5">
+                <h5>GDPR 100 - Introduction to EU GDPR</h5>
+                <b>Description</b>
+                <p>An introduction to the General Data Protection Regulation (GDPR) from the European Union. High-level overview of important aspects of GDPR. Open discussion on relevance, application, and implementation of GDPR in different industries and professional fields.</p>
+                <b>Prereqs</b>
+                <p>n/a</p>
+                <b>Available Session</b>
+                <p><a href="https://www.meetup.com/hkblockchain/events/251469990/">2018 June 25 Friday evening (Central)</a></p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>GDPR 101 - Fundamentals of EU GDPR</h5>
+                <b>Description</b>
+                <p>An introduction to the European Union’s General Data Protection Regulation. Comprehensive overview of GDPR from the letter of the law to the spirit of the law.</p>
+                <b>Prereqs</b>
+                <p>n/a</p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>GDPR 102 - Implementation of EU GDPR</h5>
+                <b>Description</b>
+                <p>This course builds on the concepts introduced from GDPR 101 to explore how GDPR affects privacy in IT environments. How to manage risks in IT frameworks. How to design for privacy and security. Fundamentals of governance and compliance.</p>
+                <b>Prereqs</b>
+                <p>GDPR 101</p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>GDPR 201 - GDPR Design Patterns</h5>
+                <b>Description</b>
+                <p>This course builds on the concepts introduced from GDPR 101 and GDPR 102 to further explore how to implement GDPR in IT environments. Emphasis on privacy protection in systems design. The challenges of implementing identity management with privacy control.</p>
+                <b>Prereqs</b>
+                <p>GDPR 102</p>
+              </div>
+              <div class="course-desc">
+                <h5>GDPR 201L - GDPR Compliant Design Project (Lab)</h5>
+                <b>Description</b>
+                <p>This is an intensive applied workshop where students will design an application from idea to proof-of-concept stage. Students are expected to produce a technical roadmap, business plan, and a final presentation.</p>
+                <b>Coreq</b>
+                <p>GDPR 201</p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>GDPR 202 - Applied GDPR for Blockchain</h5>
+                <b>Description</b>
+                <p>This course builds on all previous GDPR courses and explores deep into the fundamental challenges and paradoxes of blockchain and GDPR compliance. How to ensure blockchain applications are compliant with GDPR. The limits of GDPR compliance within blockchain.</p>
+                <b>Prereqs</b>
+                <p>GDPR 201</p>
+              </div>
+              <div class="course-desc">
+                <h5>GDPR 202L - GDPR Compliant Design Project (Lab)</h5>
+                <b>Description</b>
+                <p>This is an intensive applied workshop where students will design an application from idea to proof-of-concept stage. Students are expected to produce a technical roadmap, business plan, and a final presentation.</p>
+                <b>Coreq</b>
+                <p>GDPR 202</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FTX: Fintech Basics Programme -->
+        <div class="card">
+          <div class="card-header" id="headingFTX">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFTX" aria-expanded="true" aria-controls="collapseFTX">
+                <h5 class="mb-0">Fintech Basics Programme (FTX)</h5>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFTX" class="collapse" aria-labelledby="headingFTX" data-parent="#accordion">
+            <div class="card-body">
+              <div class="course-desc mb-5">
+                <h5>FTX 101 - Introduction to Fintech</h5>
+                <b>Description</b>
+                <p>An introduction to the convergence of finance and technology through the understanding of the global financial markets, the changing nature of finance, the role of technology, and the opportunities and risks in this industry.</p>
+                <b>Prereqs</b>
+                <p>n/a</p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>FTX 201 - Financial Fundamentals</h5>
+                <b>Description</b>
+                <p>This course builds on perspectives introduced from FTX 101 to explore the fundamental concepts in finance and the global markets. Review the mathematics of finance and the essence of economics. Comprehensive overview of financial instruments and related benefits and risks.</p>
+                <b>Prereqs</b>
+                <p>FTX 101</p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>FTX 202 - Fintech Fundamentals</h5>
+                <b>Description</b>
+                <p>This course builds on perspectives introduced from FTX 101 to explain how technology is developed. Comprehensive overview of software engineering, software development, project management, and best practices for long-term success.</p>
+                <b>Prereqs</b>
+                <p>FTX 101</p>
+              </div>
+              <div class="course-desc mb-5">
+                <h5>FTX 211 - Fintech Applications</h5>
+                <b>Description</b>
+                <p>This course builds on the concepts from FTX 201 and 202 to explore the various fintech applications in the industry. Learn to objectively evaluate fintech projects from a business and engineering perspective.</p>
+                <b>Prereqs</b>
+                <p>FTX 101, FTX 202</p>
+              </div>
+              <div class="course-desc">
+                <h5>FTX 211L - Fintech Project (Lab)</h5>
+                <b>Description</b>
+                <p>This is an intensive applied workshop where students will design a fintech application from idea to proof-of-concept stage. Students are expected to produce a technical roadmap, business plan, and a final presentation.</p>
+                <b>Coreq</b>
+                <p>FTX 211</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
