@@ -242,6 +242,20 @@
       pointer-events: none;
     }
 
+    .btn-attn {
+      color:#fff;
+      background: #27b9f7;
+      border-width: 1px;
+      border-color: #27b9f7;
+    }
+
+    .btn-attn:hover {
+      color:#27b9f7;
+      background: #fff;
+      border-width: 1px;
+      border-color: #27b9f7;
+    }
+
     .btn-white-brd {
       color: #fff;
       background: transparent;
