@@ -46,7 +46,7 @@
       em,
       li,
       li a {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         font-family: "Source Sans Pro", sans-serif;
         color: #515769;
@@ -240,6 +240,20 @@
       box-shadow: none;
       opacity: .65;
       pointer-events: none;
+    }
+
+    .btn-attn {
+      color:#fff;
+      background: #27b9f7;
+      border-width: 1px;
+      border-color: #27b9f7;
+    }
+
+    .btn-attn:hover {
+      color:#27b9f7;
+      background: #fff;
+      border-width: 1px;
+      border-color: #27b9f7;
     }
 
     .btn-white-brd {
@@ -2109,5 +2123,9 @@
     .footer .col-sm-2 {
       margin-bottom: 0 !important;
     }
+  }
+
+  .apply-btn {
+    color: #27b9f7;
   }
 
