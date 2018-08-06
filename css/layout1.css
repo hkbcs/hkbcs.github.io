@@ -542,7 +542,6 @@
       text-align: left;
       display: table;
       height: 42px;
-      margin-bottom: 20px;
     }
 
     #plans ul.options li.para {
@@ -550,7 +549,10 @@
     }
 
     #plans ul.options li.para p {
-      font-weight: bold;
+      font-style: italic;
+      text-align:justify;
+      color: #3e4f6a;
+      padding-bottom: 20px;
     }
 
     #plans ul.options li p {
