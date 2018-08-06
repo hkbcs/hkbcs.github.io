@@ -539,7 +539,7 @@
 
     #plans ul.options li {
       padding: 0 20px;
-      text-align: left;
+      margin: auto;
       display: table;
       height: 42px;
     }
@@ -550,10 +550,14 @@
 
     #plans ul.options li.para p {
       font-style: italic;
-      text-align:justify;
+      text-align:center;
       color: #3e4f6a;
       padding-bottom: 20px;
     }
+
+/*    #plans ul.options li.offers p {
+      text-align:center;
+    }*/
 
     #plans ul.options li p {
       display: table-cell;
