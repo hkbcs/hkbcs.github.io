@@ -387,3 +387,7 @@ h3.courses::after {
 .navbar-dark .navbar-brand {
     display: flex;
 }
+
+.course_btn{
+    text-align: center;
+}
