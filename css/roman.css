@@ -33,6 +33,11 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .imgMar {
+        margin-top: 30px;
+    }
+    
     .pMargin {
         margin-top: 0px;
     }
