@@ -25,6 +25,7 @@
 
     <!-- THEME STYLES -->
     <link href="css/layout1.css" rel="stylesheet" type="text/css" />
+    <link href="css/roman.css" rel="stylesheet" type="text/css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png" />
@@ -121,10 +122,12 @@
             <h1>What is our STEM?</h1>
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
+                    <img style="width: 100%;"
+                        src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
                 </div>
                 <div class="col-sm-6">
-                    <p>The Hong Kong Blockchain Society (HKBCS) is a non-profit organisation dedicated to raising
+                    <p class="pMargin">The Hong Kong Blockchain Society (HKBCS) is a non-profit organisation dedicated
+                        to raising
                         awareness of the Blockchain technology beyond the technologists to the public, industry,
                         regulators, and policy makers. We are currently seeking volunteer positions to join the team.
                     </p>
@@ -166,13 +169,15 @@
 
                         過去曾舉辦IBCOL (International Blockchain Olympiad)等國際性比賽，並為各大學提供區塊鏈課程。
                     </p>
-                    <p>今年，我地致力推廣創新五層塔及ABCD (AI, Blockchain, Cloud Computing, Big Data) 等創意項目。嚟緊5月同7月都有比賽，分別就武漢肺炎事件，以哈佛大學研究為基礎，引領同學做個有關流行病嘅項目黎參加比賽。另外一個比賽係International Blockchain Olympiad。
+                    <p>今年，我地致力推廣創新五層塔及ABCD (AI, Blockchain, Cloud Computing, Big Data)
+                        等創意項目。嚟緊5月同7月都有比賽，分別就武漢肺炎事件，以哈佛大學研究為基礎，引領同學做個有關流行病嘅項目黎參加比賽。另外一個比賽係International Blockchain
+                        Olympiad。
 
                         就呢兩個比賽我哋會提供三個網上課程俾既香港中學。
                         第一個關於武漢肺炎，我哋會提供肺炎資料集及教授同學有關哈佛大學研究的分析方法。
                         第二個係區塊鏈基礎課程，為同學參加比賽做好準備。
                         第三個係Julia編程語言基礎課程，Julia編程語言係美國麻省理工學院製作，針對人工智能及科學編程既編程語言，足以媲美現時流行嘅編程語言。
-                        
+
                     </p>
                 </div>
                 <div class="col-sm-6">
@@ -188,10 +193,32 @@
             <h1>Enrollment</h1>
             <div class="row">
                 <div class="col-sm-6">
-
+                    <form action="https://formspree.io/xvoalbzk" method="POST">
+                        <label class="enrollment_col_margin">First Name: </label>
+                        <input class="inputBgColor" style="margin-left: 18px;" type="text" name="firstName">
+                        <br>
+                        <label class="enrollment_col_margin">Last Name: </label>
+                        <input style="margin-left: 18px;" type="text" name="lastName">
+                        <br>
+                        <label class="enrollment_col_margin">School Name: </label>
+                        <input type="text" name="schoolName">
+                        <br>
+                        <label class="enrollment_col_margin">Position: </label>
+                        <input style="margin-left: 32px;" type="text" name="position">
+                        <br>
+                        <label class="enrollment_col_margin">Email: </label>
+                        <input style="margin-left: 49px;" type="email" name="email">
+                        <br>
+                        <label class="enrollment_col_margin">Contact: </label>
+                        <input style="margin-left: 34px;" type="text" name="contact">
+                        <br>
+                        <input class="btn-theme btn-theme-sm btn-attn text-uppercase btnSubmit"
+                            style="margin-top: 34px;" type="submit" value="Send">
+                    </form>
                 </div>
                 <div class="col-sm-6">
-                    <img src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
+                    <img style="width: 100%;"
+                        src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
                 </div>
 
             </div>
@@ -204,16 +231,19 @@
             <h1>Press</h1>
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
+                    <img style="width: 100%; height: auto;"
+                        src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
                 </div>
                 <div class="col-sm-6">
-                    <p>The Hong Kong Blockchain Society (HKBCS) is a non-profit organisation dedicated to raising
+                    <p class="pMargin">The Hong Kong Blockchain Society (HKBCS) is a non-profit organisation dedicated
+                        to raising
                         awareness of the Blockchain technology beyond the technologists to the public, industry,
                         regulators, and policy makers. We are currently seeking volunteer positions to join the team.
                     </p>
                 </div>
                 <div class="col-sm-6">
-                    <p>The Hong Kong Blockchain Society (HKBCS) is a non-profit organisation dedicated to raising
+                    <p class="">The Hong Kong Blockchain Society (HKBCS) is a non-profit organisation dedicated
+                        to raising
                         awareness of the Blockchain technology beyond the technologists to the public, industry,
                         regulators, and policy makers. We are currently seeking volunteer positions to join the team.
                     </p>
@@ -228,17 +258,17 @@
             <h1>Joint School</h1>
             <div class="row">
                 <div class="col-sm-4">
-                    <img style="width: 100%;"
+                    <img class="jointSchool" style="width: 100%;"
                         src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
                     <p>xxx Seconday School</p>
                 </div>
                 <div class="col-sm-4">
-                    <img style="width: 100%;"
+                    <img class="jointSchool" style="width: 100%;"
                         src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
                     <p>xxx Seconday School</p>
                 </div>
                 <div class="col-sm-4">
-                    <img style="width: 100%;"
+                    <img class="jointSchool" style="width: 100%;"
                         src="img/events/HKBCS-Blockchain-Seminar-Hong-Kong-Science-And-Technology-Park-HKSTP.jpg">
                     <p>xxx Seconday School</p>
                 </div>

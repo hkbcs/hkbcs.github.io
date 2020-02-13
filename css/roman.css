@@ -1,0 +1,48 @@
+.enrollment_col_margin {
+    margin-top: 34px;
+    margin-left: 64px;
+}
+
+.inputBgColor {
+    /* border-radius: 30px; */
+    /* border-width: 3px;
+    border-color: #364761; */
+    /* background-color: #f0f0f0; */
+}
+
+@media screen and (min-width: 414px) {
+    .pMargin {
+        margin-top: 14px;
+    }
+
+    .btnSubmit {
+        margin-bottom: 24px;
+        margin-left: 38%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .pMargin {
+        margin-top: 14px;
+    }
+
+    .btnSubmit {
+        margin-bottom: 24px;
+        margin-left: 38%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pMargin {
+        margin-top: 0px;
+    }
+
+    .btnSubmit {
+        margin-bottom: 24px;
+        margin-left: 38%;
+    }
+
+    .jointSchool {
+        padding: 0px;
+    }
+}
