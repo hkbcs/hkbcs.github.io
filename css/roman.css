@@ -10,6 +10,20 @@
     /* background-color: #f0f0f0; */
 }
 
+
+.colorBk {
+    color: black !important;
+}
+
+.content-r {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.p-4px {
+    padding: 4px;
+}
+
 @media screen and (min-width: 414px) {
     .pMargin {
         margin-top: 14px;
@@ -29,6 +43,12 @@
     .btnSubmit {
         margin-bottom: 24px;
         margin-left: 38%;
+    }
+}
+
+@media screen and (device-width: 768px) {
+    .footerImgiPadSize {
+        width: 85px !important;
     }
 }
 
